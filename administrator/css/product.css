@@ -1,0 +1,220 @@
+
+.table-product{
+    background: white;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.table-product table{
+    margin-bottom: 0;
+}
+.form-product{
+    width: 100%;
+}
+.wrap-form{
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1035px;
+    margin-bottom: 30px;
+}
+.form-title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: #ffaf00;
+    display: block;
+    text-align: center;
+}
+.section-title{
+    border-bottom: #ddd 1px solid;
+    padding: 2.5px;
+    font-size: 14px;
+    color: #c00;
+    margin: 15px 0
+}
+.form1{
+    width: 100%;
+}
+.form1 p{
+    line-height: 32px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.form1 input{
+    padding: 0 5px;
+    height: 27px;
+    border: 1px solid #ddd;
+    width: calc( 100% - 150px );
+    max-width: 350px;
+    background: #f9f9f9;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form1 textarea{
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    width: 100%  ;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 150px;
+}
+.form1 span{
+    color: red
+}
+.form-time{
+    width: calc(35% - 80px);
+    max-width: 165px!important;
+    padding: 2.5px!important
+}
+.form1 .fa-minus{
+    line-height: 27px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.form1 select{
+    padding: 0 5px;
+    height: 27px;
+    border: 1px solid #ddd;
+    width: calc( 100% - 150px );
+    max-width: 350px;
+    background: #f9f9f9;
+}
+.wrap-checkbox{
+    width: calc( 100% - 50px );
+  
+    margin-bottom: 25px;
+    margin-left: auto
+}
+.custom-control-label{
+    line-height: 27px!important;
+    font-size: 12px!important;
+    font-weight: 700!important;
+    margin: 0!important
+}
+.custom-control-label p{
+    line-height: 36px;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: -3px;
+    padding-right: 48px;
+    text-align: center;
+    line-height: 38px
+}
+.custom-control-label::before {
+    width: 150px;
+    height: 25px;
+}
+.custom-control-label::after {
+    top: 35%
+}
+.custom-control {
+    margin-right: 0!important
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #ffaf00;
+}
+.wrap-form button{
+    width: 110px;
+    text-align: center;
+    background: #ffaf00;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 700;
+    height: 35px;
+    border: 1px solid #ddd;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+}
+.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label {
+    color: black!important;
+}
+.wrap-ads{
+    padding-left: 10px;
+    padding-right: 10px
+}
+.ads{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ads img{
+    width: 49.50%;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile-3 + label {
+    color: #d3394c;
+    border: 2px solid currentColor;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+.label{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.box {
+  
+    padding-bottom:10px;
+}
+.td-intro{
+    max-width: 300px;
+}
+.edit{
+    margin-left: auto;
+    margin-right: auto;
+    background: lime;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+.delete{
+    margin-left: auto;
+    margin-right: auto;
+    background: red;
+    color: white;
+    display: block;
+}
+@media (max-width: 1199px){
+    .search-form form {
+        width: calc(100% - 109px);
+        max-width: 270px;
+    }
+}
+@media (max-width: 565px){
+    .custom-control {
+       
+        max-width: 160px;
+        margin-left: auto!important;
+        margin-right: auto!important
+    }
+}

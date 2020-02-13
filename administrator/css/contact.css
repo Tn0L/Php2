@@ -1,0 +1,11 @@
+.table-product{
+    background: white;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.table-product table{
+    margin-bottom: 0;
+}
+.form-product{
+    width: 100%;
+}

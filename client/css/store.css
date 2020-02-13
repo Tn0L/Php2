@@ -1,0 +1,130 @@
+/* 1 slide */
+.container-slide{
+    position: relative;
+    padding: 50px 0
+}
+.mySlides {
+    display: none;
+  }
+.mySlides img{
+    width: 50%;
+}
+.cursor {
+    cursor: pointer;
+    width: 100%;
+  }
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    color: #ea8025!important
+  }
+  
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white!important
+  }
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+ 
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  } 
+  
+.caption-container p{
+    line-height: 44px;
+    margin-bottom: 0
+}
+
+.choose-b{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    padding-top: 15px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0 10px;
+    cursor: pointer;
+}
+.active{
+    opacity: 1;
+}
+.active-b{
+    opacity: 0!important;
+}
+.choose-b:hover{
+    opacity: 0;
+  }
+/* 2 intro */
+.intro{
+    padding: 60px 0px;
+    background: #ffffff
+  }
+.intro-title b{
+    padding: 10px ;
+    padding-left: 0;
+    color: black; 
+    font-size: 24px;
+    color: #ea8025;
+    margin-bottom: 10px;
+    display: block;
+  }
+.intro-para{
+    margin-top: 20px
+  }
+.intro-para span{
+    color: #ea8025
+  }
+.intro-section{
+    margin: 15px 0;
+    position: relative;
+    overflow: hidden;
+  }
+.intro-section img{
+    width: 100%;
+  }
+.intro-section-p{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    opacity: 0;
+  }
+.intro-section-p p{
+    font-size: 14px
+  }
+.intro-section:hover .intro-section-p{
+    opacity: 1
+  }

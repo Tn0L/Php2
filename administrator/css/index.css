@@ -1,0 +1,190 @@
+    /* tổng */
+.wrap-total{
+    background: white;
+    padding: 25px;
+    margin-top: 15px;
+}
+.wrap-total i{
+    color:  #ff6258;
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+}
+.wrap-total p{
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.wrap-total b{
+    text-align: right;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+    /* đơn hàng  */
+.wrap-order{
+    background: white;
+    padding: 25px;
+    margin-top: 15px;
+}
+.wrap-order i{
+   color:  #ffaf00;
+   font-size: 24px;
+   text-align: center;
+   margin: 15px;
+}
+.wrap-order p{
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.wrap-order b{
+    text-align: right;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+    /* thức uống  */
+.drink-wrap{
+    background: white;
+    padding: 25px;
+    margin-top: 15px;
+}
+.drink-wrap i{
+    color: #19d895;
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+}
+.drink-wrap p{
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.drink-wrap b{
+    text-align: right;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+    /* tin tức  */
+.news-wrap{
+    background: white;
+    padding: 25px;
+    margin-top: 15px;
+}
+.news-wrap i{
+    color: #8862e0;
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+}
+.news-wrap p{
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.news-wrap b{
+    text-align: right;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+    /* analys */
+.analys{
+    background: white;
+    padding: 20px 25px;
+    margin: 15px 0;
+}
+.analys-title {
+    font-size: 13px;
+    font-weight: 600;
+}
+.left-analys-title{
+    text-align: left;
+}
+.right-analys-title{
+    text-align: right;
+}
+.right-analys-title i{
+    margin-left: 15px;
+}
+.i-order{
+    color: #19d895;
+}
+.i-income{
+    color: #2196f3;
+}
+    /* fb followers */
+.follow-fb{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px;
+}
+.fb-fl{
+    font-size: 40px;
+    margin-top: 5px;
+    color: #648ACA;
+    margin-right: 10px;
+}
+.follow-fb p{
+    margin-bottom: 0;
+    color: #6c757d;
+    font-size: 13px;
+}
+.follow-fb b{
+    color: #648ACA;
+    font-size: 13px;
+}
+    /* google followers */
+.follow-gg{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px;
+}
+.gg-fl{
+    font-size: 40px;
+    margin-top: 5px;
+    color: #E55F4B;
+    margin-right: 10px;
+}
+.follow-gg p{
+    margin-bottom: 0;
+    color: #6c757d;
+    font-size: 13px;
+}
+.follow-gg b{
+    color: #E55F4B;
+    font-size: 13px;
+}
+    /* twitter followers */
+.follow-tw{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px;
+}
+.tw-fl{
+    font-size: 40px;
+    margin-top: 5px;
+    color: #4DBFF5;
+    margin-right: 10px;
+}
+.follow-tw p{
+    margin-bottom: 0;
+    color: #6c757d;
+    font-size: 13px;
+}
+.follow-tw b{
+    color: #4DBFF5;
+    font-size: 13px;
+}
+.myChart{
+    max-height: 100px;
+}
