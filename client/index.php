@@ -1,9 +1,14 @@
 <?php
+    include "model/connect.php";
     include "view/header.php";
 
     if(isset($_GET['act'])){
         switch ($_GET['act']) {
             case 'trangchu':
+                include "model/product.php";
+                $pr = new Product;
+                $pr = $pr -> showAll();
+                var_dump($pr);
                 include_once 'view/index.php';
                 break;
             case 'sanpham':
