@@ -8,7 +8,6 @@
                 include "model/product.php";
                 $pr = new Product;
                 $pr = $pr -> showAll();
-                var_dump($pr);
                 include_once 'view/index.php';
                 break;
             case 'sanpham':
@@ -21,11 +20,17 @@
                 include_once 'view/menu.php';
                 break;
             default:
+                include "model/product.php";
+                $pr = new Product;
+                $pr = $pr -> showAll();
                 include 'view/index.php';
                 break;
         }
     }
     else{
+        include "model/product.php";
+        $pr = new Product;
+        $pr = $pr -> showAll();
         include 'view/index.php';
     }
 

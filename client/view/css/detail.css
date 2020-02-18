@@ -67,11 +67,11 @@
     padding: 50px 0
 }
 .product-title{
-    text-align: center
+    text-align: left
 }
 .product-title b{
     padding: 10px ;
-    padding-left: 0;
+    padding-left: 0px;
     color: black; 
     font-size: 24px;
     color: #ea8025;
